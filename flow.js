@@ -1,8 +1,9 @@
-var bus = 1;
+var sumBus = 10;
+var noBus = 1;
 
-while(bus < 11 ){
+while(noBus <= sumBus ){
     console.log('Public Transport No. ' + bus + ' operates well');
-    bus++;
+    noBus++;
 }
 
 // var repeat = true;
