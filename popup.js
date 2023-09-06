@@ -24,4 +24,5 @@ while(again){
 
 alert('Thank you');
 
-
+/* this class for alert, prompt & confirm */
+    
