@@ -2,6 +2,7 @@ var bus = 1;
 
 while(bus < 11 ){
     console.log('Public Transport No. ' + bus + ' operates well');
+    bus++;
 }
 
 // var repeat = true;
