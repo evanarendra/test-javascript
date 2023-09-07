@@ -25,16 +25,19 @@
 //     console.log('Public Transport No. ' + noBus + ' operates well');
 // }
 
-//Looping 
-var sumBus = 10;
-var operatedBus = 6;
-var noBus = 1;
+//Looping While & For
+// var sumBus = 10;
+// var operatedBus = 6;
+// var noBus = 1;
 
-while(noBus <= operatedBus){
-    console.log('Public Transport No. ' + noBus + ' operates well')
-    noBus++;
-}
+// while(noBus <= operatedBus){
+//     console.log('Public Transport No. ' + noBus + ' operates well');
+//     noBus++;
+// }
 
-for(var noBus = operatedBus + 1; noBus <= sumBus; noBus++){
-    console.log('Public Transport No. ' + noBus + ' does not operates well')
-}
+// for(var noBus = operatedBus + 1; noBus <= sumBus; noBus++){
+//     console.log('Public Transport No. ' + noBus + ' does not operates well');
+// }
+
+
+
