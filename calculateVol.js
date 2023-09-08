@@ -13,3 +13,11 @@ function sumVol(a, b){
 }
 
 console.log(sumVol(5, 3));
+
+// refactor the code
+
+function sumVol1(a, b){
+    return a * a * a + b * b * b;
+}
+
+console.log(sumVol1(5, 3));
