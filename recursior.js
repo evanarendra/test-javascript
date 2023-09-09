@@ -7,3 +7,10 @@ function showNumber(n){
 }
 
 showNumber(10);
+
+// faktorial
+
+function faktorial(n){
+    if (n === o) return 1;
+    return n * faktorial(n-1);
+}
