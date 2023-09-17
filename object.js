@@ -41,4 +41,4 @@ function Students(name, number, email, major){
     this.major = major;
 }
 
-var student4 = new Students('Stones', '42340', 'stones@gmail.com','Business')
+var student4 = new Students('Stones', '42340', 'stones@gmail.com','Business');
