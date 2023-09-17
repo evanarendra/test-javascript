@@ -20,3 +20,19 @@ var addPassanger = function(passangerName, passanger){
         }
     }
 };
+
+var deletePassanger = function(passangerName, passanger){
+    if (passanger.length == 0){
+        console.log('Bus still empty');
+    }else {
+        for( var i = 0; i < passanger.length; i++){
+            if(passanger[i] == passangerName){
+                passanger[i] = undefined;
+            }else if ( i == passanger.length - 1){
+                console.log(passangerName + ' not in the bus');
+                return passanger;
+            }
+        }
+    }
+    return passanger;
+}
