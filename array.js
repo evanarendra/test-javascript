@@ -43,3 +43,21 @@ value1.unshift('James');
 
 value1.shift();
 //delete last index
+
+/* splice, slice */
+var value2 = ['Alejandro','Marco','Esteban','Recoba','Fransis'];
+
+value2.splice(2, 0, 'Crist', 'Hernandez');
+console.log(value2.join(' - '));
+value2.splice(1,2, 'Ronaldinho', 'Ronaldo');
+console.log(value2.join(' - '));
+//splice (first idx, count delete, new element1, new element2)
+
+value2.slice(1,3);
+var arr2 = value2.slice(1,3);
+console.log(arr2.join(' - '));
+//slice (take first idx, end last idx)
+
+
+
+
