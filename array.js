@@ -58,6 +58,24 @@ var arr2 = value2.slice(1,3);
 console.log(arr2.join(' - '));
 //slice (take first idx, end last idx)
 
+/* foreach, map, sort */
+var number = [1,3,2,7,5,6,9,8];
 
+number.forEach(function(e, i) {
+    console.log('row value of ' + (i+1) + ' is ' + e);
+});
+// foreach for looping
+
+var number2 = number.map(function(e){
+    return e * 2;
+});
+console.log(number2);
+// map for return value of array
+
+number.sort(function(a, b){
+    return a-b;
+});
+console.log(number.join(' - '));
+// sorting the value
 
 
