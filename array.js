@@ -78,4 +78,19 @@ number.sort(function(a, b){
 console.log(number.join(' - '));
 // sorting the value
 
+/* filter & find */
+
+var number3 = number.filter(function(x){
+    return x > 5;
+});
+console.log(number3.join(' - '));
+// filter the value, return the value of array
+
+var number3 = number.find(function(x){
+    return x > 5;
+});
+console.log(number3);
+
+/* https://deloper.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array */
+
 
